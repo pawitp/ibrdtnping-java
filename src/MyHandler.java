@@ -14,10 +14,10 @@ import java.util.concurrent.ExecutorService;
 
 public class MyHandler implements CallbackHandler {
 
-	ExtendedClient mExClient;
-	ExecutorService mExecutor;
-	Bundle mBundle;
-	ByteArrayOutputStream mBaos;
+	private ExtendedClient mExClient;
+	private ExecutorService mExecutor;
+	private Bundle mBundle;
+	private ByteArrayOutputStream mBaos;
 
 	public MyHandler(ExtendedClient exClient, ExecutorService executor) {
 		mExClient = exClient;
