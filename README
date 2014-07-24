@@ -1,0 +1,8 @@
+This is an simple implementation of "ping" using the IBR-DTN Java binding,
+and was only intended to be a practice and an example of the simplest
+usage of the binding.
+
+By default, this program sends "DTNPING" to the localhost echo endpoint and
+reads the reply.
+
+The Java binding is available at https://github.com/ibrdtn/ibrdtn/tree/master/java/ibrdtnlib
